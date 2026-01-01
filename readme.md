@@ -78,3 +78,60 @@ Here are some of the best courses to master AI, LLMs, and their applications:
 8. Philo Agents: https://www.youtube.com/playlist?list=PLacQJwuclt_sV-tfZmpT1Ov6jldHl30NR
 
 ---
+
+## TensorFlow Learning Resources
+
+Here are some of the best TensorFlow courses and certifications to join:
+
+- [Complete Guide to TensorFlow for Deep Learning with Python](https://buff.ly/3Zrw59h)  
+- [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://buff.ly/4auRtw5)  
+- [Deep Learning with TensorFlow 2.0](https://buff.ly/3TrOnn6)  
+- [Machine Learning in JavaScript with TensorFlow.js](https://buff.ly/3Zo6XQJ)  
+- [TensorFlow 2.0: Deep Learning and Artificial Intelligence](https://buff.ly/4daXtvj)  
+- [TensorFlow Developer Certificate](https://buff.ly/3Bf0MnW)  
+- [More TensorFlow Resources](https://buff.ly/3TQA7oj)
+
+---
+
+## 💡 Best AI and LLM Engineering Interview Questions
+
+Prepare for interviews with these commonly asked AI and LLM engineering questions:
+
+- Explain the architecture of a transformer model.
+- What are positional encodings and why are they important in transformers?
+- How would you fine-tune a large language model on a domain-specific dataset?
+- Discuss techniques for reducing hallucination in LLM outputs.
+- What are tokenizers? How do you choose one for your application?
+- Compare zero-shot, few-shot, and fine-tuning approaches for LLMs.
+- How do you evaluate the performance of an LLM-based system?
+- What are the trade-offs between pre-training and prompt engineering?
+- Describe challenges in deploying LLMs at scale.
+- How would you handle latency issues in a production LLM API?
+
+---
+
+## 🏗️ System Design for AI Engineering
+
+When designing AI systems, these are key system design patterns and components to consider:
+
+- **Model Serving Infrastructure:** Design for high availability, low latency (e.g., TensorFlow Serving, TorchServe, custom API).
+- **Vector Databases for Embeddings:** Use tools like Pinecone, Weaviate, or Milvus for semantic search.
+- **Inference Optimisation:** Quantisation, pruning, distillation for faster inference.
+- **Feature Store:** A central repository for storing and sharing ML features (e.g., Feast, Tecton).
+- **Batch vs Real-time Inference:** Trade-offs between latency and throughput.
+- **Monitoring and Feedback Loop:** Continuous model monitoring, drift detection, and feedback for improvement.
+
+---
+
+## 📦 LLM Deployment Patterns
+
+Common patterns for deploying large language models effectively:
+
+- **API-as-a-Service:** Wrap your LLM as a REST/gRPC API and deploy using cloud services or Kubernetes.
+- **Edge Deployment:** Run small or quantised models on edge devices (e.g., smartphones, IoT devices).
+- **Hybrid Cloud + Edge:** Serve large models from the cloud and lightweight components on-device.
+- **Multi-Tenant Serving:** Serve multiple models or versions using a shared infrastructure (e.g., using Seldon or KServe).
+- **Sharded Serving:** Split large models across multiple nodes for parallel inference.
+- **Serverless LLM Inference:** Use serverless platforms (e.g., AWS Lambda + Hugging Face) for cost-efficient scaling.
+
+---
